@@ -1,3 +1,6 @@
+/*--inicio*/
+
+/*--importamos los tipos de letra--*/
 
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Nunito:wght@400;700&family=Open+Sans:wght@300;500;700&family=Sofia+Sans&display=swap');
 
@@ -5,6 +8,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Lalezar&family=Lato:wght@300&family=Nunito:wght@400;700&family=Open+Sans:wght@300;500;700&family=Ubuntu&display=swap');
 
+
+/*--configuramos los estilos INICIALES--*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,9 +19,13 @@
     cursor: pointer;
 }
 
+/*--configuramos el fondo principal para todo el body--*/
+
 body {
-    background-color: aquamarine;
+    background-color: white;
 }
+
+/*--Header, donde va el logo y el menu de navegacion--*/
 
 header {
     background-color: white;
@@ -55,6 +64,8 @@ header {
     color: black;
 }
 
+/*--configuramos la noticia 1, principal, lo que primero se ve--*/
+
 .noticia-1 {
     display: flex;
     flex-direction: column;
@@ -64,7 +75,7 @@ header {
 
 }
 
-.noticia-1 p {
+.noticia-1 h1 {
     /*border: 2px solid black;*/
     font-family: 'Lalezar', cursive;
     height: 100px;
@@ -87,3 +98,25 @@ header {
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
 }
+
+/*--colocamos la imagen fija. Al hacer scrooll no se mueve --*/
+
+.noticia-1 {
+    background-image: url(/img/ImagenFija1-CDR.png);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
