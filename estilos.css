@@ -108,44 +108,54 @@ header {
     background-attachment: fixed;
     background-size: cover;
     height: 30em;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 /*--colocamos la noticia-2--*/
 
 .seccion-2 {
+    display: flex;
     margin-right: 20px;
-    height: 32em;
-    border: 2px solid black;
+    height: 14em;
+    margin: 0 60px 0 60px;
+    /*border: 2px solid black;*/
 }
 
+.img-noticia-2 a img{
+    width: 500px;
+    margin: 80px 0 60px 40px;
+    /*border: 2px solid black;*/
+    
+}
 .noticia-2 {
-
     width: 50%;
-    margin: 150px 0 60px 400px;
-    height: auto;
-    border: 2px solid black;
+    margin: 70px 0 60px 100px;
+    /*border: 2px solid black;*/
 }
 
 .noticia-2 h2 {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     font-family: 'Lalezar', cursive;
-    height: 80px;
+    height: 50px;
     font-size: 70px;
 }
 
 /*--subtitulo de la noticia-2--*/
 
-.subtitulo-2 {
-    width: 80%;
-    margin-left: 500px;
+.sub-2 {
+    width: 45%;
+    height: 16em;
+    margin-left: 750px;
+    /*border: 2px solid black;*/
 
 }
 
-.subtitulo-2 h4 {
-    margin: 20px;
-    font-size: 30px;
+.sub-2 h4 {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: lighter;
 }
+
 
 
 
