@@ -103,7 +103,7 @@ header {
 /*--colocamos la imagen fija. Al hacer scrooll no se mueve --*/
 
 .noticia-1 {
-    background-image: url(/img/ImagenFija1-JPG.jpg);
+    background-image: url(img/ImagenFija1-JPG.jpg);
     background-repeat: none;
     background-attachment: fixed;
     background-size: cover;
