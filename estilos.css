@@ -115,8 +115,9 @@ header {
 .seccion-2 {
     display: flex;
     margin-right: 20px;
-    height: 14em;
+    height: 500px;
     margin: 0 60px 0 60px;
+    border: 2px solid black;
 }
 
 .img-seccion-2 a img{
@@ -126,36 +127,42 @@ header {
 
 .titulo-seccion-2 {
     width: 50%;
-    margin: 70px 0 60px 100px;
+    margin: 100px 0 60px 80px;
 }
 
 .titulo-seccion-2 h2 {
     font-family: 'Lalezar', cursive;
-    height: 50px;
+    height: 60px;
     font-size: 70px;
 }
 
 /*--texto de la seccion 2--*/
 
-.texto-seccion-2 {
-    width: 45%;
-    height: 16em;
-    margin-left: 750px;
+.titulo-seccion-2 h4 {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px ;
+
 
 }
 
 .texto-seccion-2 h4 {
     margin: 10px;
     font-size: 25px;
-    font-weight: lighter;
+    font-weight: bold;
+}
+
+.texto-seccion-2 {
+    margin-top: 60px;
 }
 
 /*--- Seccion 3 ---*/
 
 .seccion-3 {
     width: 1200px;
-    height: 580px;
-    margin: 20px auto;
+    height: 500px;
+    margin: 60px auto;
+    border: 2px solid black;
 }
 
 .seccion-3 .imagen-seccion-3 {
@@ -163,6 +170,7 @@ header {
     margin: 10px auto;
     width: 95%;
     height: auto;
+    border: 2px solid black;
 }
 
 
