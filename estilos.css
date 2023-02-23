@@ -37,13 +37,15 @@ header {
     margin-top: 20px;
 }
 
-.header nav ul li {
+/*--- configuramos menu de navegacion ---*/
+
+.header .menu-nav ul li {
     display: inline-block;
     padding: 0 20px;
     font-weight: bold;
 }
 
-.header .nav .menu li:hover {
+.header .menu-nav .menu li:hover {
     transform: scale(1.2);
     transition: 0.5;
     color: rgb(235, 232, 31);
@@ -52,6 +54,8 @@ header {
 .connect {
     background-color: aquamarine;
 }
+
+/*--- configuramos logo Mario Rios----*/
 
 .logo img {
     width: 350px;
@@ -64,18 +68,16 @@ header {
     color: black;
 }
 
-/*--configuramos la noticia 1, principal, lo que primero se ve--*/
+/*--configuramos la seccion 1, principal, lo que primero se ve--*/
 
 .noticia-1 {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 20px auto;
-    /*border: 2px solid black;*/
 }
 
 .noticia-1 h1 {
-    /*border: 2px solid black;*/
     font-family: 'Lalezar', cursive;
     height: 100px;
     font-size: 100px;
@@ -89,74 +91,79 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: rgb(17, 189, 189);
-    /*border: 2px solid black;*/
 }
 
 .noticia-1 .mi-nombre {
-    /*border: 2px solid black;*/
     height: 40px;
     margin: 20px;
     font-size: 30px;
     font-weight: bold;
 }
 
-/*--colocamos la imagen fija. Al hacer scrooll no se mueve --*/
+/*--colocamos la imagen fija. Al hacer scrooll no se mueve en la seccion 1 --*/
 
 .noticia-1 {
-    background-image: url(/img/ImagenFija1-JPG.jpg);
+    background-image: url(img/ImagenFija1-JPG.jpg);
     background-repeat: none;
     background-attachment: fixed;
     background-size: cover;
     height: 30em;
-    /*border: 2px solid black;*/
 }
 
-/*--colocamos la noticia-2--*/
+/*--hacemos la seccion 2--*/
 
 .seccion-2 {
     display: flex;
     margin-right: 20px;
     height: 14em;
     margin: 0 60px 0 60px;
-    /*border: 2px solid black;*/
 }
 
-.img-noticia-2 a img{
+.img-seccion-2 a img{
     width: 500px;
     margin: 80px 0 60px 40px;
-    /*border: 2px solid black;*/
-    
-}
-.noticia-2 {
-    width: 50%;
-    margin: 70px 0 60px 100px;
-    /*border: 2px solid black;*/
 }
 
-.noticia-2 h2 {
-    /*border: 2px solid black;*/
+.titulo-seccion-2 {
+    width: 50%;
+    margin: 70px 0 60px 100px;
+}
+
+.titulo-seccion-2 h2 {
     font-family: 'Lalezar', cursive;
     height: 50px;
     font-size: 70px;
 }
 
-/*--subtitulo de la noticia-2--*/
+/*--texto de la seccion 2--*/
 
-.sub-2 {
+.texto-seccion-2 {
     width: 45%;
     height: 16em;
     margin-left: 750px;
-    /*border: 2px solid black;*/
 
 }
 
-.sub-2 h4 {
+.texto-seccion-2 h4 {
     margin: 10px;
     font-size: 25px;
     font-weight: lighter;
 }
 
+/*--- Seccion 3 ---*/
 
+.seccion-3 {
+    width: 1200px;
+    height: 580px;
+    margin: 20px auto;
+}
+
+.seccion-3 .imagen-seccion-3 {
+    display: flex;
+    margin: 10px auto;
+    width: 95%;
+    height: auto;
+}
 
 
 
