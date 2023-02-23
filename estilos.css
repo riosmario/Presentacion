@@ -115,9 +115,8 @@ header {
 .seccion-2 {
     display: flex;
     margin-right: 20px;
-    height: 500px;
+    height: 600px;
     margin: 0 60px 0 60px;
-    border: 2px solid black;
 }
 
 .img-seccion-2 a img{
@@ -160,17 +159,15 @@ header {
 
 .seccion-3 {
     width: 1200px;
-    height: 500px;
-    margin: 60px auto;
-    border: 2px solid black;
+    height: 550px;
+    margin: 30px auto;
 }
 
 .seccion-3 .imagen-seccion-3 {
     display: flex;
-    margin: 10px auto;
+    margin:auto;
     width: 95%;
-    height: auto;
-    border: 2px solid black;
+    height: 550px;
 }
 
 
