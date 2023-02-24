@@ -173,10 +173,11 @@ header {
     width: 1200px;
     height: 550px;
     margin: 30px auto;
-    border: 2px solid black;
-    padding: 60px;
+    padding: 50px;
     background-image: url(img/img-seccion-4.jpg);
-    background-size: cover;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center ;
 }
 
 .primer-parrafo, 
@@ -198,6 +199,12 @@ header {
     font-family: 'Unbounded', cursive;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.dispositivos figure img {
+    display: flex;
+    width: 50%;
+    margin: -420px 0 0 550px;
 }
 
 
