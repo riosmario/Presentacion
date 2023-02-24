@@ -2,12 +2,9 @@
 
 /*--importamos los tipos de letra--*/
 
-@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Nunito:wght@400;700&family=Open+Sans:wght@300;500;700&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Gruppo&family=Lalezar&family=Lato:wght@300&family=Nunito:wght@400;700&family=Open+Sans:wght@300;500;700&family=Ubuntu&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Lalezar&family=Nunito:wght@400;700&family=Open+Sans:wght@300;500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Lalezar&family=Lato:wght@300&family=Nunito:wght@400;700&family=Open+Sans:wght@300;500;700&family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 /*--configuramos los estilos INICIALES--*/
 * {
@@ -177,7 +174,30 @@ header {
     height: 550px;
     margin: 30px auto;
     border: 2px solid black;
-    padding: 50px;
+    padding: 60px;
+    background-image: url(img/img-seccion-4.jpg);
+    background-size: cover;
+}
+
+.primer-parrafo, 
+.segundo-parrafo {
+    width: 40%;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.primer-parrafo p, 
+.segundo-parrafo p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.seccion-4 h3 {
+    font-size: xx-large;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 
