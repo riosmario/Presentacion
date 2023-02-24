@@ -201,14 +201,23 @@ header {
     margin-bottom: 30px;
 }
 
-.dispositivos figure img {
-    display: flex;
-    width: 50%;
-    margin: -420px 0 0 550px;
+.segundo-parrafo h5 {
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: -40px;
 }
 
-
-
+.segundo-parrafo a p {
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 250px;
+    font-size: 20px;
+    padding: 10px;
+}
 
 
 
