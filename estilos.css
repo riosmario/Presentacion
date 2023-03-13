@@ -116,7 +116,7 @@ header {
     margin: 0 60px 0 60px;
 }
 
-.img-seccion-2 a img{
+.img-seccion-2 a img {
     width: 500px;
     margin: 80px 0 60px 40px;
 }
@@ -137,7 +137,7 @@ header {
 .titulo-seccion-2 h4 {
     width: 90%;
     height: 30px;
-    margin-top: 10px ;
+    margin-top: 10px;
 
 
 }
@@ -162,7 +162,7 @@ header {
 
 .seccion-3 .imagen-seccion-3 {
     display: flex;
-    margin:auto;
+    margin: auto;
     width: 95%;
     height: 550px;
 }
@@ -177,10 +177,10 @@ header {
     background-image: url(img/img-seccion-4.jpg);
     background-size: 1300px;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
 }
 
-.primer-parrafo, 
+.primer-parrafo,
 .segundo-parrafo {
     width: 40%;
     text-align: justify;
@@ -188,22 +188,23 @@ header {
     margin-left: 50px;
 }
 
-.primer-parrafo p, 
+.primer-parrafo p,
 .segundo-parrafo p {
     font-size: 17px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 .seccion-4 h3 {
     font-size: xx-large;
     font-family: 'Unbounded', cursive;
-    font-weight: bold;
+    font-weight: lighter;
     margin-bottom: 30px;
 }
 
 .segundo-parrafo h5 {
-    font-weight: bolder;
     font-size: larger;
+    font-family: 'Unbounded', cursive;
+    font-weight: lighter;
     margin-left: -40px;
 }
 
@@ -219,11 +220,16 @@ header {
     padding: 10px;
 }
 
+/*..Haciendo el footer --*/
 
+footer {
+    width: 80%;
+    height: 350;
+    border: 2px solid black;
+    margin: auto;
+}
 
+.logos img {
+    width:300px;
 
-
-
-
-
-
+}
