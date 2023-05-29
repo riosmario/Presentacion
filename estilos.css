@@ -224,19 +224,23 @@ header {
 
 /*..Haciendo el footer --*/
 
-.logos figure img{
-    width: 40px;
-    margin: 5px;
+.powered img{
+    width: 20px;
+    margin: 2px;
 }
 
-.logos figure {
+.powered {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     margin-top: 5px;
+    align-items: center;
 }
 
 .logos p {
     text-align: center;
     font-size: 15px;
+    margin: 5px;
 }
 
 .logos p b {
@@ -250,6 +254,10 @@ header {
     margin: 20px;
 }
 
+.social {
+    margin-right: 30px;
+}
+
 footer {
    width: 90%;
    margin-left: 20px;
@@ -258,5 +266,11 @@ footer {
    justify-content: center;
 }
 
+.linea2 {
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin: 20px;
+}
 
 /* ---- programando el footer -----*/
